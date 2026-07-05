@@ -1,0 +1,16 @@
+// old ---> master
+// new ---> main
+git branch
+git branch -M main
+git clone https://...etc
+git status
+git add . ( or ) git add [file-path]
+git restore --stage [file-path]
+git commit -m ["Your message"]
+git log
+git log --oneline
+git commit amend ---> open vim
+git commit amend -m ["Your Updated Message"]
+git config --global core.editor notepad
+git remote
+git remote -v
